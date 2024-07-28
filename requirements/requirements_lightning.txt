@@ -3,6 +3,13 @@ omegaconf>=2.2,<2.3
 pytorch-lightning>=1.9.0
 pyyaml<6  # Pinned until omegaconf works with pyyaml>=6
 torchmetrics>=0.11.0
-transformers>=4.0.1
+transformers>=4.38.0
 wandb
 webdataset>=0.1.48,<=0.1.62
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
